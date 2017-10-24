@@ -7,9 +7,9 @@ public class pe1 {
 
 	public static void main(String args[])
 	{
-		sc = new Scanner(System.in);
+// 		sc = new Scanner(System.in);
 		int num,t,i,r=0,sum=0,evsum=0;
-		String s = sc.next();
+		String s =  "12";//sc.next();
 		num = Integer.parseInt(s);
 		t=num;
 		while(num!=0)
