@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Pe1 {
+public class pe1 {
 
 	private static Scanner sc;
 
