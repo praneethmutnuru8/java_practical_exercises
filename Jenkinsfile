@@ -3,7 +3,12 @@ pipeline {
     stages { 
         stage('Build') { 
             steps { 
-               echo 'This is a minimal pipeline.' 
+               sh 'echo "This is a minimal pipeline."' 
+               sh 'cd java_practical_exercises/Java_language_basics/java_language_basics_part2'
+               sh 'javac pe10.java'
+               sh 'echo "done compile"'
+               sh 'java pe10'
+               sh 'echo "done run,,,"'
             }
         }
     }
